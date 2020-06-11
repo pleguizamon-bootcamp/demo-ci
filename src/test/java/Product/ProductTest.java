@@ -41,7 +41,7 @@ class ProductTest {
 	@Test
 	void testSearchPrice() {
 		List pro=Product.searchPrice((double) 999);
-		assertEquals(2,pro.size());
+		assertEquals(1,pro.size());
 	}
 	
 	
